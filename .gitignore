@@ -1,0 +1,12 @@
+# The ui directory is the build directory.  Nothing
+# Should be placed in version control there, instead
+# you want to build the ui when changes are made.
+# The .gitkeep allows the directory itself to be in version control.
+!/ui/.gitkeep
+/ui/*
+
+# Always ignore node_modules
+/base/node_modules
+
+# Ignore the .vscode directory
+.vscode
