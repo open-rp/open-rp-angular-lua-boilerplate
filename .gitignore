@@ -9,4 +9,4 @@
 /base/node_modules
 
 # Ignore the .vscode directory
-.vscode
+/.vscode
