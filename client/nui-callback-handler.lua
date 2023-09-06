@@ -5,7 +5,6 @@ RegisterNUICallback('callback', function(data, cb)
     local isVisible = data.data.attributes.isVisible
     if not isVisible then
       CloseNUIInterface()
-      SetNuiFocus(false, false)
     end
   -- elseif data.type == CallbackType.AnimationCancel then
   --   SetNuiFocus(false, false)
