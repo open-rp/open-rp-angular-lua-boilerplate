@@ -26,6 +26,8 @@ type and attributes are required, while id can be optional where needed.
 }
 ```
 
-
+The `type` can be used to find out what kind of message it is.
+The `id` is typically the `id` of a database record for a give object.
+The `attributes` is an object containing the data you want to pass. A database record, or some state data etc.
 
 
